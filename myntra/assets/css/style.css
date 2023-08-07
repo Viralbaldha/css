@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: skyblue;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.align {
+    align-items: center;
+}
+
+.color  {
+    background-color: skyblue;
+    padding: 30px 20px;
+}
+
+.header_text {
+    padding: 0 20px;
+}
+
+.header_text ul li {
+    display: inline-block;
+}
+
+.logo {
+    width: 150px;
+}
+
+.header_text ul li a {
+    color: black;
+}
+.header_text ul {
+    display: flex;
+    gap: 34px;
+}
+.icon ul li {
+    display: inline-block;
+}
+
+.icon ul li a {
+    padding: 0 20px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sprites-headerBag {
+    width: 22px;
+    height: 22px;
+    background-position: -341px -56px;
+}
+.sprites-headerWishlist {
+    width: 17px;
+    height: 22px;
+    background-position: -315px -187px;
+}
+.sprites-headerUser {
+    width: 24px;
+    height: 24px;
+    background-position: -298px -56px;
+}
+.icon span:first-child {
+    background-image: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    display: inline-block;
+}
+.logo-wrapper {
+    width: 10%;
+}
+.link-wrapper {
+    width: 40%;
+    justify-content: flex-start;
+}
+.search-wrapper {
+    width: 30%;
+}
+.icon-wrapper {
+    width: 20%;
+    justify-content: flex-end;
+}
+.search-wrapper input {
+    width: 100%;
+    padding: 8px 10px 10px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #f5f5f6;
+    background: #f5f5f6;
+    color: #696e79;
+}

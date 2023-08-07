@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../viral-1/GettyImages-1211228527.jpg);
+    background-repeat: no-repeats;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fa-solid {
+    color: white;
+}
+
+.align{
+    align-items: center;
+}
+.justify{
+    justify-content: space-between;
+}
+header{
+    background-color: black;
+    padding: 10px 0;
+}
+
+.logo img{
+    display: block;
+    width: 80%;
+ 
+}
+.list ul li {
+    display: inline-block;
+    list-style: none;
+}
+.list ul li a{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px   ;
+}
